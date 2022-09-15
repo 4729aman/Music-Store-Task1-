@@ -10,6 +10,12 @@ select{
     color:rgb(255, 0, 255);
     background-color: black;
 }
+h2
+{
+   text-align: 
+   
+   
+}
 h3
 {
     color:purple;
@@ -59,8 +65,88 @@ button{
     color:rgb(255, 0, 255);
   }
 
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
+  
+ .containt
+ {
+    text-align: center;
+ }
+ table
+ {
+    border: 1px solid;
+ }
+
  
+
+.nav-links h2 {
+
+  list-style: none;
+  position: relative;
+text-align: center;
+  display: inline-block;
+
+  padding: 8px 50px;
+
+  width: 100px;
+
+  height: 100px;
+
+  background-color: rgb(218 222 242);
+
+  animation-name: Aman;
+
+  animation-duration: 10s;
+
+}
+@keyframes Aman{
+
+  0% {
+
+      background-color: red;
+
+  }
+
+  15% {
+
+      background-color: yellow;
+
+  }
+
+  30% {
+
+      background-color: blue;
+
+  }
+
+  45% {
+
+      background-color: green;
+
+  }
+
+  60% {
+
+      background-color: rgb(239, 11, 194);
+
+  }
+
+  75% {
+
+      background-color: rgb(112, 240, 129);
+
+  }
+
+  100% {
+
+      background-color: rgb(115, 0, 128);
+
+  }
+
+}
+body{
+  background-color: aquamarine;
+  background-image: url("./images/.jpg" );
+}
+/* table th img
+{
+  z-index: -1;
+} */
